@@ -49,13 +49,15 @@ To use the command-line version:
 python main.py "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
-## Project Structure
+## Assignment Structure
 
 ```text
-gui.py          Tkinter interface
-main.py         Command-line entry point
-transcript.py   Transcript extraction
-summarizer.py   Local Ollama summarization
+gui.py                                  Tkinter interface
+main.py                                 Command-line entry point
+transcript.py                           Transcript extraction
+summarizer.py                           Local Ollama summarization
+prompting_parameters_minitasks.ipynb    Minitask Notebook
+Reflection.md                           Vibecoding Reflection
 ```
 
 ## Notes
@@ -63,3 +65,12 @@ summarizer.py   Local Ollama summarization
 - The video must have an available English transcript.
 - All summarization runs locally through Ollama.
 - Ollama must be available at `http://localhost:11434`.
+
+
+## Screenshots
+
+<img width="851" height="146" alt="Screenshot 2026-07-21 074826" src="https://github.com/user-attachments/assets/37838004-47ed-4d19-a63a-92f829eb63b2" />
+<img width="1280" height="759" alt="Screenshot 2026-07-21 074926" src="https://github.com/user-attachments/assets/f451fa81-9ee0-48ec-ba1e-95cd9f6413c1" />
+<img width="1280" height="758" alt="Screenshot 2026-07-21 075403" src="https://github.com/user-attachments/assets/57293a06-8573-4d53-8de5-55f7395fe19c" />
+<img width="1280" height="725" alt="Screenshot 2026-07-21 083345" src="https://github.com/user-attachments/assets/c6b341a6-e6db-4b86-8d82-19ca4f83f5e1" />
+
